@@ -1,0 +1,30 @@
+#btn-goto-top {
+	/* Estilos para el botón */
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	left: 6px;
+	z-index: 99;
+	width: 50px;
+	height: 50px;
+	color: #049c04;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 50%;
+	transition: 0.3s;
+	background: none;
+  }
+  
+  #btn-goto-top::before {
+	/* Flecha hacia arriba usando pseudo-elemento ::before */
+	content: '\21C8';
+	font-size: 60px;
+	position: relative;
+	left: -1px;
+	top: 1px;
+  }
+  
+  #btn-goto-top:hover {
+	transform: scale(1.5);
+  }

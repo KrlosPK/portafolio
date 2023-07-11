@@ -1,0 +1,17 @@
+.porta{
+    background-color: var(--color-ter);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--color-cuarto);
+    text-transform: uppercase;
+    transition: 0.5s;
+    margin-bottom: 1rem;
+}
+
+.porta:hover{
+    transform: scale(2px);
+    color: var(--color-primario);
+    cursor: pointer;
+    
+}
